@@ -6,10 +6,32 @@
 body{
     font-family: 'Roboto',sans-serif;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Take the 100vh height vh- view port height*/
+    text-align: center;
+    height: 100vh;
     margin: 0;
     overflow: hidden;
+    background-color: violet;
+}
+
+.btn{
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.3rem;
+    font-family: inherit;
+    cursor: pointer;
+
+}
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn:focus{
+    outline: none;
 }
