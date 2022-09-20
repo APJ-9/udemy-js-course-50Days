@@ -1,9 +1,9 @@
 const insert = document.getElementById('insert')
 
-window.addEventListener('keydown',(e)=>{
+window.addEventListener('keydown', (e) => {
 	insert.innerHTML = `
 	<div class='key'>
-		${e.key=== ' '? 'Space': e.key }
+		${e.key === ' ' ? 'Space' : e.key}
 		<small> e.key</small>
 	</div>
 
