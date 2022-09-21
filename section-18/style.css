@@ -97,6 +97,7 @@ main {
 
 .overview {
     background-color: white;
+    opacity: 0.9;
     padding: 2rem;
     position: absolute;
     left: 0;
