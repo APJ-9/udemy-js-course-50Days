@@ -1,36 +1,58 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
     box-sizing: border-box;
     margin: 0;
 }
 
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100vw;
+body {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    /* width: 100vw; */
     /* height: 100vh; */
-    overflow-x: hidden;
+    /* overflow: hidden; */
+    font-family: 'Roboto', sans-serif;
 }
-h1{
+
+h1 {
     margin: 50px auto;
+    text-align: center;
 }
-ul{
+
+ul {
     list-style: none;
     margin: 0;
     /* background-color: red; */
-    padding: 0;
-}
-li{
+    padding: 0 30px;
     display: flex;
-    padding: 10px 20px;
-    margin: 5px;
-    /* background-color: yellow; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-a{
+li {
+    /* display: flex; */
+    padding: 15px 30px;
+    margin: 5px;
+    background-color: #111;
+    min-width: 400px;
+}
+li.completed{
+    background-color: green;
+}
+li.pending{
+    background-color: red;
+    cursor: none;
+}
+
+li.pending a{
+    cursor: none;
+}
+a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 24px;
 }
