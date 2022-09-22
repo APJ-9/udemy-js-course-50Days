@@ -31,6 +31,7 @@ body {
 
 .hold {
     border: 5px solid #ccc;
+    /* background-color: rgba(0,0,0,0.4) */
 }
 
 .hovered {

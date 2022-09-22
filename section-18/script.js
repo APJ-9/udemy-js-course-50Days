@@ -21,7 +21,7 @@ function showMovies(movies) {
 
     movies.forEach((movie) => {
         const { title, poster_path, vote_average, overview } = movie
-
+        //lot other informartion in movie but here we use olny these information
         const movieEl = document.createElement('div')
         movieEl.classList.add('movie')
 

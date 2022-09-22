@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
@@ -33,7 +32,7 @@ body::before {
 .slider-container {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   height: 70vh;
-  width: 65vw;
+  width: 70vw;
   position: relative;
   overflow: hidden;
 }
@@ -72,34 +71,37 @@ body::before {
 }
 
 .left-arrow {
-  left: calc(15vw - 65px);
+  left: calc(15vw - 85px);
 }
 
 .right-arrow {
-  right: calc(15vw - 65px);
+  right: calc(15vw - 85px);
 }
-@media(max-width:645px){
-    .arrow {
 
-        padding: 10px;
-        font-size: 20px;
-        border: 2px solid orange;
+@media(max-width:645px) {
+  .arrow {
 
-      }   
-      .left-arrow {
-        left: calc(20vw - 65px);
-      }
-      
-      .right-arrow {
-        right: calc(20vw - 65px);
-      }
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid orange;
+
+  }
+
+  .left-arrow {
+    left: calc(20vw - 70px);
+  }
+
+  .right-arrow {
+    right: calc(20vw - 70px);
+  }
 }
-@media(max-width:350px){
-    .left-arrow {
-        left: calc(23vw - 65px);
-      }
-      
-      .right-arrow {
-        right: calc(23vw - 65px);
-      }
+
+@media(max-width:350px) {
+  .left-arrow {
+    left: calc(23vw - 65px);
+  }
+
+  .right-arrow {
+    right: calc(23vw - 65px);
+  }
 }
