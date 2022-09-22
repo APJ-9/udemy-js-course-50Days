@@ -45,6 +45,7 @@ header {
 main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .movie {
@@ -96,6 +97,7 @@ main {
 
 .overview {
     background-color: white;
+    opacity: 0.9;
     padding: 2rem;
     position: absolute;
     left: 0;
