@@ -40,6 +40,10 @@ li.pending {
     cursor: none;
 }
 
+li.today{
+    background-color: orange;
+}
+
 li.pending a {
     cursor: none;
 }
