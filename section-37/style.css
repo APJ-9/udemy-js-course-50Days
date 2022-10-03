@@ -16,3 +16,24 @@ body {
     margin: 0;
     overflow: hidden;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.square {
+    background-color: #1d1d1d;
+    box-shadow: 0 0 2px #000;
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    transition: 2s ease;
+}
+
+.square:hover {
+    transition-delay: 0s;
+}
