@@ -41,4 +41,18 @@ img {
 
 .btn {
     background-color: rebeccapurple;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 49.5%;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: scaleY(1.1);
+}
+
+.btn:focus {
+    outline: none;
 }
