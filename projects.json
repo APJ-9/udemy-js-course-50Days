@@ -1,0 +1,36 @@
+{
+    "projects": [
+        {
+            "name": "Expanding Cards",
+            "link": "section-02/index.html"
+        },
+        {
+            "name": "Progress Steps",
+            "link": "section-03/index.html"
+        },
+        {
+            "name": "Rotating Navigation Animation",
+            "link": "section-04/index.html"
+        },
+        {
+            "name": "Hidden Search Widget",
+            "link": "section-05/index.html"
+        },
+        {
+            "name": "Blurry Loading",
+            "link": "section-06/index.html"
+        },
+        {
+            "name": "Scroll Animation",
+            "link": "section-07/index.html"
+        },
+        {
+            "name": "Split Landing Page",
+            "link": "section-08/index.html"
+        },
+        {
+            "name": "Form Wave",
+            "link": "section-09/index.html"
+        }
+    ]
+}
