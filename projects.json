@@ -31,6 +31,174 @@
         {
             "name": "Form Wave",
             "link": "section-09/index.html"
+        },
+        {
+            "name": "Sound Board",
+            "link": "section-10/index.html"
+        },
+        {
+            "name": "Dad Jokes",
+            "link": "section-11/index.html"
+        },
+        {
+            "name": "Event Keycodes",
+            "link": "section-12/index.html"
+        },
+        {
+            "name": "Faq Collapse",
+            "link": "section-13/index.html"
+        },
+        {
+            "name": "Random Choice Picker",
+            "link": "section-14/index.html"
+        },
+        {
+            "name": "Animated Navigation",
+            "link": "section-15/index.html"
+        },
+        {
+            "name": "Incrementing Counter",
+            "link": "section-16/index.html"
+        },
+        {
+            "name": "Drink Water",
+            "link": "section-17/index.html"
+        },
+        {
+            "name": "Movie App",
+            "link": "section-18/index.html"
+        },
+        {
+            "name": "Background Slider",
+            "link": "section-19/index.html"
+        },
+        {
+            "name": "Theme Clock",
+            "link": "section-20/index.html"
+        },
+        {
+            "name": "Button Ripple Effect",
+            "link": "section-21/index.html"
+        },
+        {
+            "name": "Drag N Drop",
+            "link": "section-22/index.html"
+        },
+        {
+            "name": "Drawing App",
+            "link": "section-23/index.html"
+        },
+        {
+            "name": "Kinetic Loader",
+            "link": "section-24/index.html"
+        },
+        {
+            "name": "Content Placeholder",
+            "link": "section-25/index.html"
+        },
+        {
+            "name": "Sticky Navbar",
+            "link": "section-26/index.html"
+        },
+        {
+            "name": "Double Vertical Slider",
+            "link": "section-27/index.html"
+        },
+        {
+            "name": "Toast Notification",
+            "link": "section-28/index.html"
+        },
+        {
+            "name": "Github Profiles",
+            "link": "section-29/index.html"
+        },
+        {
+            "name": "Double Click Heart",
+            "link": "section-30/index.html"
+        },
+        {
+            "name": "Auto Text Effect",
+            "link": "section-31/index.html"
+        },
+        {
+            "name": "Password Generator",
+            "link": "section-32/index.html"
+        },
+        {
+            "name": "Good Cheap Fast",
+            "link": "section-33/index.html"
+        },
+        {
+            "name": "Notes App",
+            "link": "section-34/index.html"
+        },
+        {
+            "name": "Animated Countdown",
+            "link": "section-35/index.html"
+        },
+        {
+            "name": "Image Carousel",
+            "link": "section-36/index.html"
+        },
+        {
+            "name": "Hoverboard",
+            "link": "section-37/index.html"
+        },
+        {
+            "name": "Pokedex",
+            "link": "section-38/index.html"
+        },
+        {
+            "name": "Mobile Tab Navigation",
+            "link": "section-39/index.html"
+        },
+        {
+            "name": "Password Strength Background",
+            "link": "section-40/index.html"
+        },
+        {
+            "name": "3d Background Boxes",
+            "link": "section-41/index.html"
+        },
+        {
+            "name": "Verify Account UI",
+            "link": "section-42/index.html"
+        },
+        {
+            "name": "Live User Filter",
+            "link": "section-43/index.html"
+        },
+        {
+            "name": "Feedback UI Design",
+            "link": "section-44/index.html"
+        },
+        {
+            "name": "Custom Range Slider",
+            "link": "section-45/index.html"
+        },
+        {
+            "name": "Netflix Mobile Navigation",
+            "link": "section-46/index.html"
+        },
+        {
+            "name": "Quiz App",
+            "link": "section-47/index.html"
+        },
+        {
+            "name": "Testimonial Box Switcher",
+            "link": "section-48/index.html"
+        },
+        {
+            "name": "Random Image Feed",
+            "link": "section-49/index.html"
+        },
+        {
+            "name": "Todo List",
+            "link": "section-50/index.html"
+        },
+        {
+            "name": "Insect Catch Game",
+            "link": "section-51/index.html"
         }
     ]
 }
