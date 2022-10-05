@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -66,9 +67,62 @@ h1 {
     font-family: sans-serif;
     text-align: center;
     color: white;
+
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
 
-a {
-    text-decoration: none;
+.card {
+    background-color: #ccc;
+    /* padding: 5px; */
+    margin: 10px;
+    height: 300px;
+    width: 230px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.project-number {
+    height: 60%;
+    font-size: 100px;
+    /* background-color: yellow; */
+}
+
+.project-number span {
+    padding-left: 20px;
+}
+
+.card .details {
+    /* background-color: firebrick; */
+    width: 100%;
+    height: 40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card .details p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    /* padding-left: 10px; */
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    color: #111;
 }

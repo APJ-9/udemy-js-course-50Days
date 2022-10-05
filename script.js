@@ -1,6 +1,7 @@
 const mainSection = document.getElementById('main')
 // console.log(mainSection)
 
+const colors = ['#e74c3c', '#8e44ad', '#3498db', '#e67e22', '#2ecc71']
 function jsonconnection() {
 
     const xhr = new XMLHttpRequest()
@@ -16,16 +17,19 @@ function jsonconnection() {
                 // console.log(i, project)
                 const card = document.createElement('div')
                 card.classList.add('card')
-                card.innerHTML = `
-                            <div class="project-number">
-                                <span>${i}</span>
-                            </div>
-                            <div class="details">
-                                <p class="projectname">${project.name}</p>
-                                <a href="${project.link}"> <button>View Project</button> </a>
-                            </div>
-                        `
+                card.innerHTML =
+                    `
+                        <div class="project-number">
+                            <span>${i}</span>
+                        </div>
+                        <div class="details">
+                            <p class="projectname">${project.name}</p>
+                            <a href="${project.link}"> <button>View Project</button> </a>
+                        </div>
+                    `
                 mainSection.appendChild(card)
+                card.style.backgroundColor = randomColor()
+
                 i++
             });
 
@@ -34,6 +38,10 @@ function jsonconnection() {
     }
 
     xhr.send()
+}
+
+function randomColor() {
+    return colors[Math.floor(Math.random() * colors.length)]
 }
 
 jsonconnection()
