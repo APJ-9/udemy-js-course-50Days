@@ -42,7 +42,9 @@ function jsonconnection() {
 }
 
 function randomColor() {
+    console.log([Math.floor(Math.random() * colors.length)])
     return colors[Math.floor(Math.random() * colors.length)]
+
 }
 
 jsonconnection()
