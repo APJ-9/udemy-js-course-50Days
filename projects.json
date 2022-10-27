@@ -148,9 +148,17 @@
             "name": "Pokedex",
             "link": "section-38/index.html"
         },
-{
-    "name": "Mobile Tab Navigation",
-    "link": "section-39/index.html"
-}
+        {
+            "name": "Mobile Tab Navigation",
+            "link": "section-39/index.html"
+        },
+        {
+            "name": "Password Strength Background",
+            "link": "section-40/index.html"
+        },
+        {
+            "name": "3d Background Boxes",
+            "link": "section-41/index.html"
+        }
     ]
 }
