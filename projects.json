@@ -171,6 +171,10 @@
         {
             "name": "Feedback UI Design",
             "link": "section-44/index.html"
+        },
+        {
+            "name": "Custom Range Slider",
+            "link": "section-45/index.html"
         }
     ]
 }
